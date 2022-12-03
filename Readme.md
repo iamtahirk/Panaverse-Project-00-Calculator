@@ -8,7 +8,7 @@ Developed a simple command line calculator using TypeScipt, Node.js and Inquirer
 Clone the repo and run following command.
 
 ```bash
-  npx tscalc-cli
+  npm i
 ```
 
 
