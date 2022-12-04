@@ -15,7 +15,7 @@ async function welcome() {
     await sleep();
     rainbowTitle.stop();
     
-    let rainbowName = chalkAnimation.rainbow(`
+    console.log(chalk.redBright(`
     ██████╗ ██╗   ██╗    ███╗   ███╗   ████████╗ █████╗ ██╗  ██╗██╗██████╗ 
     ██╔══██╗╚██╗ ██╔╝    ████╗ ████║   ╚══██╔══╝██╔══██╗██║  ██║██║██╔══██╗
     ██████╔╝ ╚████╔╝     ██╔████╔██║      ██║   ███████║███████║██║██████╔╝
@@ -23,10 +23,7 @@ async function welcome() {
     ██████╔╝   ██║       ██║ ╚═╝ ██║██╗   ██║   ██║  ██║██║  ██║██║██║  ██║
     ╚═════╝    ╚═╝       ╚═╝     ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
     
-    `);
-
-    await sleep(3500);
-    rainbowName.stop();
+    `));
 }
 
 await welcome();
